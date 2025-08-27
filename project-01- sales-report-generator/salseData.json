@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "product": "Wireless Mouse",
+    "category": "Electronics",
+    "price": 799,
+    "quantitySold": 12,
+    "date": "2025-08-01"
+  },
+  {
+    "id": 2,
+    "product": "Mechanical Keyboard",
+    "category": "Electronics",
+    "price": 3499,
+    "quantitySold": 5,
+    "date": "2025-08-02"
+  },
+  {
+    "id": 3,
+    "product": "Office Chair",
+    "category": "Furniture",
+    "price": 5999,
+    "quantitySold": 3,
+    "date": "2025-08-02"
+  },
+  {
+    "id": 4,
+    "product": "USB-C Cable",
+    "category": "Accessories",
+    "price": 299,
+    "quantitySold": 20,
+    "date": "2025-08-03"
+  },
+  {
+    "id": 5,
+    "product": "Laptop Stand",
+    "category": "Accessories",
+    "price": 1299,
+    "quantitySold": 8,
+    "date": "2025-08-04"
+  }
+]
