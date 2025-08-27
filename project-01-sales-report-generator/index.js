@@ -1,3 +1,5 @@
+// npm init -y
+
 const fs = require("fs");
 
 const data = fs.readFileSync("./salseData.json", "utf8");
