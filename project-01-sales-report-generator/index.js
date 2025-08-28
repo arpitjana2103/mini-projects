@@ -23,9 +23,24 @@ function objToStr(obj) {
   return str;
 }
 
+function getTop3(products, count) {
+  const start = 0;
+  const end = count - 1;
+
+  let str = "";
+
+  for (let i = start; i <= end; i++) {
+    const { product, revenue } = products.at(i);
+    str += `${i + 1}. ${product} - ₹${revenue}\n`;
+  }
+
+  return str;
+}
+
 products.forEach(function (product) {
   const { id, product: name, category, price, quantitySold, date } = product;
   const revenue = price * quantitySold;
+  product.revenue = revenue;
 
   totalRevenue += revenue;
   totalUnins += quantitySold;
@@ -46,12 +61,33 @@ products.forEach(function (product) {
   categoryWiseRev[category] += revenue;
 });
 
-console.log(`Total Revenue: ₹${totalRevenue}
+products.sort(function (a, b) {
+  const revA = a.revenue;
+  const revB = b.revenue;
+  // What you want
+  if (revA > revB) return -1;
+  // What you don't want
+  if (revA < revB) return 1;
+  // You dont care
+  if (revA === revB) return 0;
+});
+
+console.log(`
+----------------------------------------
+         SALES REPORT - AUG 2025
+----------------------------------------
+Total Revenue: ₹${totalRevenue}
 Total Units Sold: ${totalUnins}
+
 Best-Selling Product: ${maxQuantitySoldProductName} (${maxQuantitySold} units)
 Highest Revenue Product: ${highestRevenueProductName} (₹${highestRevenue})
+
 Category-Wise Revenue:
-${objToStr(categoryWiseRev)}`);
+${objToStr(categoryWiseRev)}
+
+Top 4 Products by Revenue:
+${getTop3(products, 4)}
+----------------------------------------`);
 
 /*
 // Total Revenue: ₹72,272
