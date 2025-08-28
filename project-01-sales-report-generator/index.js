@@ -23,7 +23,7 @@ function objToStr(obj) {
   return str;
 }
 
-function getTop3(products, count) {
+function getTop(products, count) {
   const start = 0;
   const end = count - 1;
 
@@ -72,7 +72,7 @@ products.sort(function (a, b) {
   if (revA === revB) return 0;
 });
 
-console.log(`
+const result = `
 ----------------------------------------
          SALES REPORT - AUG 2025
 ----------------------------------------
@@ -85,24 +85,9 @@ Highest Revenue Product: ${highestRevenueProductName} (₹${highestRevenue})
 Category-Wise Revenue:
 ${objToStr(categoryWiseRev)}
 
-Top 4 Products by Revenue:
-${getTop3(products, 4)}
-----------------------------------------`);
+Top 4 Products by Revenue :
+${getTop(products, 4)}
+----------------------------------------`;
 
-/*
-// Total Revenue: ₹72,272
-// Total Units Sold: 48
-
-// Best-Selling Product: USB-C Cable (20 units)
-// Highest Revenue Product: Mechanical Keyboard (₹17,495)
-
-Category-Wise Revenue:
-- Electronics: ₹39,483
-- Furniture: ₹17,997
-- Accessories: ₹14,792
-
-Top 3 Products by Revenue:
-1. Mechanical Keyboard - ₹17,495
-2. Office Chair - ₹17,997
-3. Wireless Mouse - ₹9,588
-*/
+fs.writeFileSync("output.txt", result, "utf8");
+console.log("output.txt created.");

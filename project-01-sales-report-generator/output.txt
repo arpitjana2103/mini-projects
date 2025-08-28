@@ -1,0 +1,23 @@
+
+----------------------------------------
+         SALES REPORT - AUG 2025
+----------------------------------------
+Total Revenue: ₹61452
+Total Units Sold: 48
+
+Best-Selling Product: USB-C Cable (20 units)
+Highest Revenue Product: Office Chair (₹17997)
+
+Category-Wise Revenue:
+- Electronics: ₹27083
+- Furniture: ₹17997
+- Accessories: ₹16372
+
+
+Top 4 Products by Revenue :
+1. Office Chair - ₹17997
+2. Mechanical Keyboard - ₹17495
+3. Laptop Stand - ₹10392
+4. Wireless Mouse - ₹9588
+
+----------------------------------------
