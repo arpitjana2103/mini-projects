@@ -1,0 +1,19 @@
+--------------------------------------------
+           CLASS REPORT - AUG 2025
+--------------------------------------------
+
+Individual Performance:
+1. Aarav Sharma - Total: 261 | Percentage: 87.00% | Grade: A
+2. Priya Das - Total: 239 | Percentage: 79.67% | Grade: A
+3. Rohan Mehta - Total: 206 | Percentage: 68.67% | Grade: B
+4. Sneha Patel - Total: 275 | Percentage: 91.67% | Grade: A
+5. Kabir Khan - Total: 173 | Percentage: 57.67% | Grade: B
+
+
+--------------------------------------------
+Class Summary:
+- Class Average Percentage: 76.93%
+- Top Performer: Sneha Patel (91.67%)
+- Students Below 70%: Rohan Mehta, Kabir Khan
+- Students with Low Attendance (<75%): Kabir Khan
+--------------------------------------------

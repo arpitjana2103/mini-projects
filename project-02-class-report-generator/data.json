@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Sharma",
+    "marks": { "Math": 88, "Science": 92, "English": 81 },
+    "attendance": 95
+  },
+  {
+    "id": 2,
+    "name": "Priya Das",
+    "marks": { "Math": 76, "Science": 85, "English": 78 },
+    "attendance": 88
+  },
+  {
+    "id": 3,
+    "name": "Rohan Mehta",
+    "marks": { "Math": 65, "Science": 72, "English": 69 },
+    "attendance": 80
+  },
+  {
+    "id": 4,
+    "name": "Sneha Patel",
+    "marks": { "Math": 92, "Science": 89, "English": 94 },
+    "attendance": 98
+  },
+  {
+    "id": 5,
+    "name": "Kabir Khan",
+    "marks": { "Math": 55, "Science": 60, "English": 58 },
+    "attendance": 70
+  }
+]
