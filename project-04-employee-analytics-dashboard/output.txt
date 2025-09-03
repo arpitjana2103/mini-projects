@@ -1,0 +1,15 @@
+
+Total Employees: 4
+Average Salary: ₹66,250
+Highest Paid Employee: Vivek Gupta (₹90,000)
+
+Department Summary:
+- Engineering: 2 employees, Avg Salary ₹82,500
+- Marketing: 1 employees, Avg Salary ₹55,000
+- HR: 1 employees, Avg Salary ₹45,000
+
+Sorted by Experience (High to Low):
+1. Vivek Gupta (5 years)
+2. Arjun Mehta (3 years)
+3. Riya Sharma (2 years)
+4. Sneha Rao (1 years)
