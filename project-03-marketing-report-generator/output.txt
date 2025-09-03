@@ -1,0 +1,25 @@
+Campaign Performance:
+    1. Independence Day Sale
+        - CTR: 4.00%
+        - Conversion Rate: 7.29%
+        - ROI: 200.00%
+        - Revenue: ₹1,50,000 | Cost: ₹50,000
+    
+    2. Back to School Promo
+        - CTR: 5.00%
+        - Conversion Rate: 7.50%
+        - ROI: 150.00%
+        - Revenue: ₹1,00,000 | Cost: ₹40,000
+    
+    3. Weekend Flash Sale
+        - CTR: 5.00%
+        - Conversion Rate: 4.00%
+        - ROI: 50.00%
+        - Revenue: ₹30,000 | Cost: ₹20,000
+    
+Overall Summary:
+- Total Spend: ₹1,10,000
+- Total Revenue: ₹2,80,000
+- Overall ROI: 400%
+- Best Performing Campaign: Independence Day Sale
+- Campaign Needing Optimization: Weekend Flash Sale    
