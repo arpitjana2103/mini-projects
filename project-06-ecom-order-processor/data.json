@@ -1,0 +1,48 @@
+[
+  {
+    "orderId": "ORD101",
+    "customer": "Ananya",
+    "items": [
+      {
+        "product": "Phone",
+        "category": "Electronics",
+        "price": 15000,
+        "quantity": 1
+      },
+      {
+        "product": "Case",
+        "category": "Accessories",
+        "price": 500,
+        "quantity": 2
+      }
+    ],
+    "status": "Delivered"
+  },
+  {
+    "orderId": "ORD102",
+    "customer": "Rohan",
+    "items": [
+      {
+        "product": "Shoes",
+        "category": "Fashion",
+        "price": 2500,
+        "quantity": 1
+      },
+      { "product": "Cap", "category": "Fashion", "price": 500, "quantity": 1 }
+    ],
+    "status": "Pending"
+  },
+  {
+    "orderId": "ORD103",
+    "customer": "Ananya",
+    "items": [
+      {
+        "product": "Smartwatch",
+        "category": "Electronics",
+        "price": 4000,
+        "quantity": 1
+      }
+    ],
+    "status": "Delivered"
+  }
+]

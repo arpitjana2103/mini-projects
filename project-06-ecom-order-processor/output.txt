@@ -1,0 +1,21 @@
+
+-----------------------------------------
+         E-COMMERCE ORDER REPORT
+-----------------------------------------
+
+Total Revenue: ₹23000
+Total Orders: 3
+Unique Customers: 2
+
+Revenue by Customer:
+- Ananya: ₹20000
+- Rohan: ₹3000
+
+Revenue by Category:
+- Electronics: ₹19000
+- Accessories: ₹1000
+- Fashion: ₹3000
+
+Orders by Status:
+- Delivered: 2
+- Pending: 1
