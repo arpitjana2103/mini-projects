@@ -1,0 +1,11 @@
+{
+  "name": "project-07-movie-recomendation-engine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "command": "node index.js"
+  },
+  "author": "Arpit Jana",
+  "license": "ISC",
+  "description": ""
+}
