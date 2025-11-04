@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "user": "Aarav",
+    "post": "Loving #JavaScript! #Coding is fun! 🚀"
+  },
+  {
+    "id": 2,
+    "user": "Sneha",
+    "post": "Working with #NodeJS and #JavaScript today."
+  },
+  {
+    "id": 3,
+    "user": "Aarav",
+    "post": "#Coding every day improves skills. #Practice"
+  },
+  {
+    "id": 4,
+    "user": "Riya",
+    "post": "Exploring #React and #JavaScript frameworks!"
+  }
+]
