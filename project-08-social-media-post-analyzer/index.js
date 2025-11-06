@@ -314,4 +314,9 @@ posts.forEach(function ({ post }) {
   });
 });
 
-console.log(usedCount);
+Array.from(usedCount)
+  .sort((a, b) => b.at(1) - a.at(1))
+  .slice(0, 5)
+  .forEach(function ([word, count]) {
+    console.log(`-${word}(${count})`);
+  });
