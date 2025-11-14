@@ -1,0 +1,18 @@
+{
+    "members": {},
+    "books": {
+        "ISBN-12XCV": {
+            "isbn": "ISBN-12XCV",
+            "name": "Reach-dad",
+            "auther": "auther-name",
+            "issue": "issue1"
+        }
+    },
+    "issues": {
+        "issue1": {
+            "member_id": "sanjay-123456789",
+            "isbn": "ISBN-12XCV",
+            "iat": "date+time"
+        }
+    }
+}
