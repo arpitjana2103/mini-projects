@@ -1,5 +1,5 @@
 const fs = require("fs");
-const filePath = "./../database.json";
+const filePath = `${__dirname}/../database.json`;
 
 const data = fs.readFileSync(filePath, "utf-8");
 const dataObj = JSON.parse(data);
@@ -14,4 +14,11 @@ const remove = function (path, key) {
     fs.writeFileSync(filePath, JSON.stringify(dataObj));
 };
 
-module.exports = { add, remove };
+const clear = function () {
+    fs.writeFileSync(
+        filePath,
+        JSON.stringify({ members: {}, books: {}, issues: {} })
+    );
+};
+
+module.exports = { add, remove, clear };

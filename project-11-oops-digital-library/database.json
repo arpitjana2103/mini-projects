@@ -1,18 +1,1 @@
-{
-    "members": {},
-    "books": {
-        "ISBN-12XCV": {
-            "isbn": "ISBN-12XCV",
-            "name": "Reach-dad",
-            "auther": "auther-name",
-            "issue": "issue1"
-        }
-    },
-    "issues": {
-        "issue1": {
-            "member_id": "sanjay-123456789",
-            "isbn": "ISBN-12XCV",
-            "iat": "date+time"
-        }
-    }
-}
+{"members":{"ajay-9876543210":{"id":"ajay-9876543210","name":"Ajay Sinha","address":"Patna, Bihar","phone":"9876543210","issus":["Issue-ISBN010","Issue-ISBN002"]},"rohi-9123456780":{"id":"rohi-9123456780","name":"Rohit Verma","address":"Kolkata, West Bengal","phone":"9123456780","issus":[]},"sneh-9812345678":{"id":"sneh-9812345678","name":"Sneha Kapoor","address":"Delhi","phone":"9812345678","issus":[]},"meer-9001234567":{"id":"meer-9001234567","name":"Meera Chawla","address":"Mumbai, Maharashtra","phone":"9001234567","issus":[]},"vikr-9797979797":{"id":"vikr-9797979797","name":"Vikram Patel","address":"Ahmedabad, Gujarat","phone":"9797979797","issus":[]}},"books":{"ISBN001":{"isbn":"ISBN001","name":"ReactDad-PoorDad","auther":"Arpit Jana","issue_id":""},"ISBN002":{"isbn":"ISBN002","name":"JavaScript Essentials","auther":"Kyle Simpson","issue_id":"Issue-ISBN002"},"ISBN003":{"isbn":"ISBN003","name":"Clean Code","auther":"Robert C. Martin","issue_id":""},"ISBN004":{"isbn":"ISBN004","name":"You Don't Know JS","auther":"Kyle Simpson","issue_id":""},"ISBN005":{"isbn":"ISBN005","name":"Eloquent JavaScript","auther":"Marijn Haverbeke","issue_id":""},"ISBN006":{"isbn":"ISBN006","name":"Learning React","auther":"Alex Banks","issue_id":""},"ISBN007":{"isbn":"ISBN007","name":"Node.js in Action","auther":"Mike Cantelon","issue_id":""},"ISBN008":{"isbn":"ISBN008","name":"Design Patterns","auther":"Erich Gamma","issue_id":""},"ISBN009":{"isbn":"ISBN009","name":"System Design Basics","auther":"Alex Xu","issue_id":""},"ISBN010":{"isbn":"ISBN010","name":"The Pragmatic Programmer","auther":"Andrew Hunt","issue_id":"Issue-ISBN010"}},"issues":{"Issue-ISBN002":{"id":"Issue-ISBN002","isbn":"ISBN002","member_id":"ajay-9876543210","iat":"Sun Nov 16 2025"},"Issue-ISBN003":{"id":"Issue-ISBN003","isbn":"ISBN003","member_id":"ajay-9876543210","iat":"Sun Nov 16 2025"},"Issue-ISBN010":{"id":"Issue-ISBN010","isbn":"ISBN010","member_id":"ajay-9876543210","iat":"Sun Nov 16 2025"}}}
