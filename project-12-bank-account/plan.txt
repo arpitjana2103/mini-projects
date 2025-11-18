@@ -1,0 +1,48 @@
+
+User ( class )
+    --> a. Account_Holder 
+    --> b. Admin
+   
+
+Bank ( Class )
+
+    a. Create Account  -- account holder
+    b. Deposite        -- account holder 
+    c. Withdraw        -- account holder
+    d. Apply Loan      -- account holder
+    e. Change Pin      -- account holder
+
+    a. Can see details of all account holders  -- admin
+    b. Deactive an Account                     -- admin
+    c. Activate an Account                     -- admin
+    d. Sunction Loan                           -- admin
+
+
+Bank class --> Bank Account
+
+
+// Database Schema
+
+{
+    "users": {
+        "<user_id>": {
+            "id": "<user_id>",
+            "name": "<full_name>",
+            "phone": "<phone_num>",
+            "aadhar_no": "<aadhar_no>",
+            "pan_num": "<pan_num>",
+            "address": "<adress>",
+            "type": "<acc_holder>/<admin>"
+        }
+    },
+    "accounts": {
+        "<account_number>": {
+            "account_num": "<account_num>",
+            "user_id": "<user_id>",
+            "balance_amt": "<amount>",
+            "loan_amt": "<amount>",
+            "pin_num": "<pin>"
+        }
+    }
+}
+

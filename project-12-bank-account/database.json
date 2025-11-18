@@ -1,0 +1,31 @@
+{
+    "users": {
+        "ABCDE1234F": {
+            "id": "ABCDE1234F",
+            "name": "Arjun Shah",
+            "phone": "9876543210",
+            "aadhar_no": "123412341234",
+            "address": "Mumbai, MH",
+            "pan_no": "ABCDE1234F",
+            "type": "admin"
+        },
+        "PQRSX6789A": {
+            "id": "PQRSX6789A",
+            "name": "Priya Verma",
+            "phone": "9123456780",
+            "aadhar_no": "234523452345",
+            "address": "Delhi, DL",
+            "pan_no": "PQRSX6789A",
+            "type": "acc_holder"
+        }
+    },
+    "accounts": {
+        "9123456780": {
+            "account_num": "9123456780",
+            "user_id": "PQRSX6789A",
+            "balance_amt": 300,
+            "loan_amt": 0,
+            "pin": null
+        }
+    }
+}
