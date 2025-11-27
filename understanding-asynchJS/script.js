@@ -149,7 +149,3 @@ const getCountryData2 = async function (countryName) {
   countryData = data[0];
   renderCountry(countryData, "neighbour");
 };
-
-btn.addEventListener("click", function () {
-  getCountryData("India");
-});
